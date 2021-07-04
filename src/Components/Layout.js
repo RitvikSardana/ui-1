@@ -1,7 +1,7 @@
 import React from "react";
 import { makeStyles, Drawer, Typography } from "@material-ui/core";
 import { useHistory, useLocation } from "react-router";
-import { SubjectOutlined, AddCircleOutline, Home, OutlinedFlagOutlined } from "@material-ui/icons";
+import { SubjectOutlined} from "@material-ui/icons";
 import { List, ListItem, ListItemIcon, ListItemText } from "@material-ui/core";
 import LocalMallOutlinedIcon from "@material-ui/icons/LocalMallOutlined";
 import SecurityOutlinedIcon from "@material-ui/icons/SecurityOutlined";
@@ -127,7 +127,7 @@ function Layout({ children }) {
         <Toolbar style={{ justifyContent: "flex-end" }}>
           <div className={classes.appbar_div}>
             <Avatar src="" className={classes.avatar} />
-            <Typography style={{ marginRight: 16 }}>Ritvik</Typography>
+            <Typography style={{ marginRight: 16 }}>Kishore</Typography>
             <NotificationsNoneOutlinedIcon style={{ marginRight: 8 }} />
             <HelpOutlineOutlinedIcon />
           </div>

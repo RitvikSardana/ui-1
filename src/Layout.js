@@ -75,7 +75,7 @@ function Layout({children}) {
                         Hii
                     </Typography>
                     <Typography>
-                        Ritvik
+                        Kishore
                     </Typography>
                     <Avatar src='https://raw.githubusercontent.com/iamshaunjp/material-ui-tut/lesson-17/public/mario-av.png' className = {classes.avatar} />
                 </Toolbar>
