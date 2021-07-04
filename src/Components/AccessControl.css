@@ -1,0 +1,54 @@
+:root{
+    --primary-color:#673AB7;
+}
+
+.active{
+    color: var(--primary-color);
+    border-bottom: 5px solid var(--primary-color);
+    border-radius: 0.4rem;
+}
+
+.Access{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.Access ul{
+    display: flex;
+    /* align-items: center; */
+}
+.Access li{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    padding-top: 10px;
+    cursor: pointer;
+
+}
+.Access_refresh{
+    /* padding-top: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Add {
+    background: var(--primary-color);
+    padding: 8px;
+    border-radius: 0.6rem;
+    color: white;
+    margin: 15px;
+    width: 145px;
+    text-align: center;
+}
+
+.Access_details{
+    justify-content:flex-start;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+

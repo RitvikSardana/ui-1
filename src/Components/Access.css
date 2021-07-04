@@ -1,0 +1,28 @@
+/* .Access__denied{
+    background: red;
+}
+
+.Access.granted{
+    background: chartreuse;
+} */
+
+.All.Access{
+    text-align: center;
+}
+
+.Restricted.Access{
+    text-align: center; 
+}
+.All.Access >h4{
+    background: #bee7cf;
+    /* color:#308553; */
+    border-radius: 999px;
+    padding: 10px;
+}
+
+.Restricted.Access >h4{
+    background: #FFB5b5;
+    /* color:#d43c3c; */
+    border-radius: 999px;
+    padding: 10px;
+}
